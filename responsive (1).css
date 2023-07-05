@@ -1,0 +1,28 @@
+@media screen and (max-width:600px){
+    .navigasi {
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+    .navigasi h1 {
+        font-weight: bold;
+        color:  #cff09e;
+        float: none;        
+    }
+    .menunavigasi ul {
+        float: none;    
+    }
+    .menunavigasi ul li {
+        float: none;  
+    }
+
+    .kartun {
+        position: none;
+    }
+
+    .kotak5 {
+        width: 0;
+        margin: 10vh 5vh; 
+    }
+    
+}

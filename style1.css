@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #7caecd;
+}
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animasi {
+  height: 50vh;
+  background: url("animasi praktikum.jpg");
+  /*background-color: black;*/
+  background-color: #404c4c;
+  flex-wrap: wrap;
+}
+
+.gambar {
+  margin-top: 20vh;
+  margin-right: 15vh;
+  margin-left: 15vh;
+}
+
+.login {
+  margin: 30vh 15vh;
+  width: 350px;
+  height: 300px;
+  background-color: rgb(171, 205, 226);
+  border-radius: 10px;
+}
+
+.form_login {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+}
+
+.btn {
+  width: 200px;
+  background-color: #235f5b;
+}
+
+.btn:hover {
+  background-color: #678482;
+}
+
+/* .user input {
+  text-transform: capitalize;
+} */
+
+.navbar {
+  height: 60px;
+  background: url("navbar1.jpg");
+}
+
+.alert1 {
+  position: absolute;
+  float: right;
+  margin-top: 1vh;
+  margin-left: 120vh;
+  height: 40px;
+  width: 60vh;
+  border-radius: 8px;
+}
+
+.alert1 p {
+  /*margin-top: 5px;*/
+  text-align: center;
+}
+
+.nav-item {
+  background-color: #13405c;
+  float: left;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+  /*border-radius: 10px; */
+}
+
+.display-4 {
+  font-weight: bold;
+  color: #13405c;
+}
+
+.kotak {
+  position: absolute;
+  width: 33vh;
+  /*margin-top: 1px;*/
+}
+
+.kotak1 {
+  margin-left: 38vh;
+  margin-right: 5vh;
+}
+
+.kotak2 {
+  /*background-color: #7AABA8;*/
+  background-color: #40a2ae;
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.kotak3 {
+  margin: 0 5vh;
+}
+
+.kotak4 {
+  position: relative;
+  float: right;
+  width: 80vh;
+  margin-left: 5vh;
+  background: white;
+}
+
+.kotak12 {
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+.kotak13 {
+  margin-left: 38vh;
+  margin-right: 5vh;
+  position: absolute;
+}
+
+.card-text {
+  float: right;
+  color: #d9e3e3;
+}
+
+.form_admin {
+  margin-left: 38vh;
+  position: absolute;
+  width: 170vh;
+}
+
+.profil {
+  float: right;
+  margin-top: 20vh;
+  margin-right: 15vh;
+  /*background: black;*/
+  position: relative;
+}
+
+.profil h4 {
+  color: #13405c;
+  text-overflow: bold;
+  margin-top: 10px;
+}
+
+.table thead tr th {
+  text-align: center;
+}
+
+.form_add {
+  margin: 5vh 5vh;
+  /*position: fixed;*/
+}
+
+.form_admin {
+  background-color: white;
+  margin-top: 3vh;
+  margin-right: 40vh;
+}
+
+.form_mhs {
+  /*width: 150vh;*/
+  margin-left: 5vh;
+  background-color: black;
+}
+
+.col-md {
+  width: 45vh;
+}
+
+#formFile {
+  width: 55vh;
+}
+
+.form-check {
+  margin-right: 10px;
+}
+
+#exampleFormControlTextarea1 {
+  width: 45vh;
+}
+
+.form_aslab {
+  width: 150vh;
+  margin-left: 5vh;
+  position: relative;
+  background-color: black;
+}
+
+.container_tugas {
+  /*width: 200vh;*/
+  border-radius: 10px;
+  background-image: url("tabel.jpg");
+  margin: 8vh 5vh 5vh;
+  border: 1px solid black;
+  opacity: 0.8;
+}
+
+.container_tugas .tugas {
+  align-content: center;
+  margin: 5vh 8vh;
+}
+
+.container_tugas .tugas h4 {
+  position: relative;
+  font-family: Verdana;
+  text-decoration: bold;
+}
+
+.add_kiri {
+  position: absolute;
+  /*background-color: grey;*/
+}
+
+.add_kanan {
+  margin-left: 60vh;
+  /*background-color: black;*/
+}
+
+.kartun {
+  margin-top: 15vh;
+  margin-left: 8vh;
+  margin-right: 30vh;
+  position: relative;
+  width: 80vh;
+  position: absolute;
+}
+
+.kartun h5 {
+  font-family: Bradley Hand;
+  font-weight: bold;
+  font-size: 18pt;
+  color: #0b4475;
+}
+
+.kartun h6 {
+  font-family: Bradley Hand;
+  font-size: 14pt;
+}
+
+.kotak5 {
+  float: right;
+  margin-left: 100vh;
+  margin-right: 8vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  /*background-color: black;*/
+  position: relative;
+}
+
+.kotak6 {
+  background-color: #40a2ae;
+  border-radius: 10px;
+  border: 4px solid #333667;
+  height: 25vh;
+  margin-left: 3vh;
+  background: transparent;
+  position: static;
+}
